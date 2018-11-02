@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="description" content="Изготовить вывеску на фасад здания по 902 п.п. с фронтальной подстветкой, контражур или без нее. Рекламно-производственная компания в Москве Фабрика Букв">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="apple-touch-icon" href="">
+	<link rel="apple-touch-icon" sizes="72x72" href="">
+	<link rel="apple-touch-icon" sizes="114x114" href="">
+
+	<meta name="theme-color" content="#000">
+	<meta name="msapplication-navbutton-color" content="#000">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<meta name="yandex-verification" content="e8b0e73ff3cfeaf7">
+<!--
+	
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	 -->
+
+	<style type="text/css">
+.mfp-bg.mfp-ready {
+    display: none;
+}
+.mfp-wrap.mfp-close-btn-in.mfp-auto-cursor.mfp-ready {
+    display: none;
+}
+
+</style>
+
+
+</head>
+<body>
+
+
+
+
+	<div class="container-fluid" id="calculator">
+		<div class="row">
+			<div class="container" id="kalk">
+				<div class="row">
+					<div class="col-sm-12 col-xs-12"><h1 class="txt-c"><span class="b">Рассчитать</span><!-- <br> и мы гарантированно сделаем скидку</h1> --></div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2" id="ya_a">
+						<div class="cont">
+							<textarea id="lett" placeholder="введите слово или фразу"></textarea>
+						</div>
+						<div class="cont"> Высота букв, см
+							<input type="text" id="lett_h" value="1">
+						</div>
+						<div class="cont"><input type="checkbox" class="tpe" data-pr="49" data-nm="Не световые буквы"> Не световые буквы</div>
+						<div class="cont"><input type="checkbox" class="tpe" data-pr="60" data-nm="Фронтальное свечение"> Фронтальное свечение</div>
+						<div class="cont"><input type="checkbox" class="tpe" data-pr="75" data-nm="Контражурное свечение"> Контражурное свечение</div>
+						<div class="cont"><input type="checkbox" class="tpe" data-pr="90" data-nm="Полное свечение"> Полное свечение</div>
+						<div class="cont"><input type="checkbox" id="pdlj"> Композитная подложка</div>
+						<div class="cont" id="podlojka" style="display: none;"><!--22-->
+							<div class="ct ltt">Высота подложки, см:
+								<input type="text" id="pdlj_h" value="1">
+							</div>
+							<div class="ct ltt">Длина подложки, см:
+								<input type="text" id="pdlj_w" value="1">
+							</div>
+						</div>
+						<div class="cont"><input type="checkbox" id="power"> Блок питания</div>
+						<div class="cont"><input type="checkbox" id="montaj"> Монтаж</div>
+						<div class="sum">Сумма: <span id="itog">49</span> руб.</div>
+					</div>
+					<div class="col-sm-6 col-md-5 col-lg-4">
+						<div id="pcture">
+							<div class="_goods">
+								<div class="flip-container">
+									<aside class="flipper" id="flipper">
+										<section class="front">Перед</section>
+										<section class="back right">Зад</section>
+									</aside>
+									<aside id="undflipper">
+										<section>здесь будет<br>примерный вид</section>
+									</aside>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="txt-c">
+						<button type="button" id="order" class="bigbtn">оставить заявку</button>
+					</div>
+				</div>
+			</div>
+			<div id="calc_answ" style="display:none"></div>
+
+			
+			<div id="text_order" style="display:none">Текст: 
+Тип вывески: не выбрано
+Высота букв, см: 1
+Блок питания: не нужен
+Подложка: не нужна
+Монтаж: не нужен</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+
+	<script src="js/scripts.min.js"></script>
