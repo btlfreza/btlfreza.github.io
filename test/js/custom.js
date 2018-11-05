@@ -102,6 +102,7 @@ jQuery(document).ready(function($){
 
  /* Navigation Bar
   -----------------------------------------------*/
+/*
 $(document).ready(function() { 
     "use strict";
 
@@ -139,7 +140,7 @@ $(document).ready(function() {
     })();
 
 });
-
+*/
 
 $(document).ready(function(){
             
