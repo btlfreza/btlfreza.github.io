@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
+@media screen and (max-width: 370px) {
+#portfolio {
+   
+    padding-top: 0rem;
+   
+}
+}
+
 /* iPhone 6 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px){
 #portfolio {
