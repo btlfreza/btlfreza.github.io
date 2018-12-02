@@ -485,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
 		opacity: .9;
 		-webkit-backface-visibility: hidden; // for Chrome Windows
 		
-		@include fh5co-gradient;
+		/*@include fh5co-gradient;*/
 	}
 	&, .text-wrap {
 		height: 900px;
